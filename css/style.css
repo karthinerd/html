@@ -1,0 +1,40 @@
+body{
+  background-image: url(../img/e.jpg);
+	}
+table, th, td {
+  border:1px solid black;
+}
+td{
+	color: Dimgray;
+}
+th {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: #04AA6D;
+  color: white;
+}
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+label{
+    color: DodgerBlue;
+}
+#self{
+	background-color:white;
+	color:black;
+	border: 20px solid ;
+	margin: 20px;
+    padding: 20px;
+}
+.family{
+	background-color:ghostwhite;
+	color:black;
+	border: 20px solid ;
+	margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Info</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1-0">
+	<style>
+		h1{
+			text-shadow: 2px 2px;
+			font-family: cursive;
+			color: #3c3c3c;
+		}
+		body{
+			line-height: 1.25em;
+			background-image:url(img/h.jpg);
+			padding-top:100px;
+			padding-bottom:100px;
+			padding-right: 300px;
+			margin:all;
+			border: 6px dotted black;
+			border-radius: 15px;
+			text-align: right;
+		}
+		label{
+             color:blue;
+		}
+		input[type=submit] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+	</style>
+</head>
+<body>
+	<form action="next.php" method="post">
+		<h1>Details For Interview</h1><br>
+<div>
+<label>Name</label>
+<input type="text" placeholder="Enter Name" required>
+</div><br>
+<div>
+<label>Date of Birth</label>
+<input type="Date" placeholder="D-O-B" required="">
+</div><br>
+<div>
+<label>Age</label>
+<input type="Number" placeholder="Age" required="">
+</div><br>
+<div>
+<label>Gender</label>
+<input type="radio" id="Male" name="Gender" value="Male" required="">
+<b>Male</b>
+<input type="radio" id="Female" name="Gender" value="Female" required="">
+<b>Female</b>
+<input type="radio" id="Others" name="Gender" value="Others" required="">
+<b>Others</b>
+</div><br>
+<div>
+<label>Qualification</label>
+<input type="text" placeholder="Degree" required="">
+</div><br>
+<div>
+<label>Phone Number</label>
+<input type="Number" placeholder="Mobile-No" required="">
+</div><br>
+<div>
+<label>E-Mail Id</label>
+<input type="email" placeholder="E-Mail" required="">
+</div><br>
+<div>
+<label>Password</label>
+<input type="Password" placeholder="Password" required="">
+</div><br>
+<div>
+<label>Preferred Time</label>
+<input type="datetime-local" placeholder="Free Time" required="">
+</div><br>
+<div>
+<label >Upload Your Image</label>
+<input type="file" placeholder="image" required >
+</div><br>
+<div>
+<input type="Submit" name="Submit" value="Submit">
+</div><br>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	background-color: #CFE0E7;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+
+}
+
+.card{
+	background: white;
+	width: 270px;
+	height: 400px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.card-image{
+	background-color:aqua;
+	height: 170px;
+	margin-bottom: 15px;
+	background-size: cover; 
+	border-radius: 15px 15px 0 0 ;
+}
+
+.car-1{
+	background-image: url('img/amma.jpeg');
+}
+
+.car-2{
+	background-image: url('img/karthi.jpeg');
+}
+
+.car-3{
+	background-image: url('img/kumar.jpeg');
+}
+
+.card:hover{
+background-color: grey;
+color:white;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 1s ease;
+}
+
+.date{
+	color: red;
+	font-size: 13px;
+}
+
+.card-stats{
+	grid-area: stats;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background: red;
+}
+.card-stats .stat {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	color: white;
+}
+.card-stats .type{
+	font-size: 11px;
+	font-weight: 300;
+	text-transform:uppercase;
+}
+.card-stats  .value{
+	font-size: 22px;
+	font-weight: 500;
+}
+.card-stats .border{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+.card-stats .value sup{
+	font-size: 12px;
+}
+
+.hi{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 2px solid green;
+}

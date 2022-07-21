@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<script>
+var a; // Undefined
+console.log(a);
+var b=4+4;  // Number
+console.log(b);
+var c=true; // boolean
+console.log(c);
+var d=null; // null
+console.log(d);
+var e="karthi"; // String
+console.log(e);
+console.log(typeof e);
+// Arithmatic Operator
+var f = 5;
+console.log(f+5);
+console.log(f-5);
+console.log(f*5);
+console.log(f/5);
+console.log(f%5);
+f++;  // Unary Operator
+console.log(f);
+// String + Number (Concate)
+var g="karthi";
+console.log(g + 66);
+console.log(23 - "karthi"); //Not a Number
+// Relational Operator
+console.log('10 < 5 = ', 10 < 5);
+console.log('10 > 5 = ', 10 > 5);
+console.log('10 <= 5 =', 10 <= 5);
+console.log('10 >= 5 = ', 10 >= 5);
+console.log('10 == 5 = ', 10 == 5);
+console.log('10 != 5 = ', 10 != 5);
+console.log('10 === "10" = ', 10 === "10");
+console.log('10 !== "10" = ', 10 !== "10");
+//Logiacl Operator
+console.log('!true =', !true);
+console.log('1 || 0 = ', 1 || 0);
+console.log('1000 && 0 = ', 1000 && 0);
+//Conditional Operator
+var h = 18 , voter;
+//vName = B-Expres ? T : F ;
+voter = h >= 18 ? 'No' : 'Yes' ;
+console.log("Eligible" + " " + voter);
+// Compound Operator
+var i = 100;
+i+=1000;
+console.log(i);
+i-=10;
+console.log(i);
+i*=10;
+console.log(i);
+i/=10;
+console.log(i);
+i%=10;
+console.log(i);
+// IF Condition
+var j=18;
+if (j>=18) {
+	console.log("No");
+}
+// IF Condition
+var k = 300;
+if (k<3) {
+	console.log("yes");
+} 
+//Else if Condition
+else if(k>=3){
+	console.log("Yup");
+}
+//Else Condition
+else {
+	console.log("No");
+}
+//While Loop
+var L = 0;
+while(L<10){
+console.log('Number: ',L++);
+}
+console.log("While Loop Finished");
+//Do-While Loop
+do {
+	console.log("Playing");
+	m = confirm("Do you want to continue?");
+}while(m);
+console.log("The End");
+//For Loop
+for (var n = 0; n < 5; n++) {
+	console.log(n);
+}
+</script>
+</head>
+<body>
+<h1 style="text-align: center;">My First Web Page</h1>
+</body>
+</html>

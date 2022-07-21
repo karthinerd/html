@@ -15,6 +15,7 @@ body{
 
 }
 
+
 .container{
 	display: flex;
 	justify-content: center;
@@ -96,11 +97,4 @@ transition: all 1s ease;
 }
 .card-stats .value sup{
 	font-size: 12px;
-}
-
-.hi{
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	border: 2px solid green;
 }
